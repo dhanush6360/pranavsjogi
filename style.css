@@ -1,62 +1,55 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
-header {
-    background-color: pink;
-    color: white;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: red;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
     padding: 20px;
-    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: blue;
-    color: white;
+h2 {
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
     width: 100%;
-    bottom: 0;
-}
-
-table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 50%;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
     padding: 10px;
-    text-align: left;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#successMessage {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#successMessage p {
+    font-size: 1.1em;
+    color: #333;
 }
